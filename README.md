@@ -1,2 +1,20 @@
-# End-To-End-Youtube-Video-Transcribe-Summarizer-LLM-
-A Streamlit web app that summarizes YouTube videos using the transcript and Google's Gemini Pro. Just paste a YouTube link and get a clean, concise summary in seconds. Perfect for note-taking, content review, and learning from long videos faster.
+# 🎥 YouTube Video Summarizer using Gemini Pro
+
+This Streamlit app takes a YouTube video link, extracts the transcript using `youtube-transcript-api`, and generates a detailed summary using Google's Gemini Pro model.
+
+---
+
+## 🚀 Features
+- Extracts transcript from YouTube videos
+- Generates summaries in bullet points (within 250 words)
+- Displays thumbnail preview
+- Clean Streamlit UI
+
+---
+
+## 🛠️ Setup Instructions
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/Monith.k/yt-summarizer.git
+cd yt-summarizer
